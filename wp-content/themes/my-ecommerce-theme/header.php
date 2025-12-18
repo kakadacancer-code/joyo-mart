@@ -17,10 +17,10 @@
                     <div class="menu-nav">
                         <ul>
                             <li><a href="">Home</a></li>
-                            <li><a href="">Products</a></li>
-                            <li><a href="">Category</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="<?php echo home_url('/products'); ?>">Products</a></li>
+                            <li><a href="<?php echo home_url('/category'); ?>">Category</a></li>
+                            <li><a href="<?php echo home_url('/about'); ?>">About</a></li>
+                            <li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
                         </ul>
                     </div>
                     <div class="user-menu">
@@ -33,3 +33,6 @@
     </header>
 </body>
 </html>
+
+
+

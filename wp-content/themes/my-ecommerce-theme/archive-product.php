@@ -8,5 +8,5 @@
         <p>$<?php echo $price; ?></p>
     </div>
     <?php endwhile; ?>
-</div>
-<?php get_footer(); ?>
+
+    

@@ -1,0 +1,256 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        background-image: url('bakery.jpg');
+        background-size: contain;
+        background-position: center;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: #ff9800;
+    }
+
+    .under-title {
+        text-align: center;
+        color: #ff0000;
+    }
+
+     .under-title-1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #000000;
+    }
+
+    .title-bg {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        padding: 50px;
+    }
+
+    .product-container {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .product {
+        background: #fff;
+        padding: 15px;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+     .product img {
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+     }
+
+    .product h3 {
+        margin: 0 0 10px;
+    }
+
+    .price {
+        color: green;
+        font-weight: bold;
+    }
+
+    .stock {
+        color: #555;
+        font-size: 14px;
+    }
+
+    button {
+        margin-top: 8px;
+        padding: 8px;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .buy {
+        background: #e63946;
+        color: white;
+    }
+
+    .cart {
+        background: #264653;
+        color: white;
+    }
+
+    .cart-box {
+        margin-top: 30px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+
+
+
+.section-column {
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.product-card {
+  width: 45%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  padding: 10px;
+}
+
+.product-card img {
+  width: 50%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-info {
+    width: 50%;
+  padding: 16px;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.product-detail {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.price-section {
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e63946;
+  margin-right: 8px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 6px;
+}
+
+.discount {
+  color: #2a9d8f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cart-btn {
+  background: #264653;
+  color: #fff;
+}
+
+.buy-btn {
+  background: #e63946;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
+
+.image-ediya {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.image-ediya img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.banner h3 {
+   color: #e63946;
+   padding-left: 20px;
+}
+
+.banner p {
+   color: #000000;
+   padding-left: 20px;
+}
+
+.product-card-section {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex-direction: column;
+  padding: 10px;
+}
+
+.product-card-section img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.product-info-section {
+    padding: 16px;
+}
+
+
+.section-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
